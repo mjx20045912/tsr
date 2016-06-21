@@ -1,0 +1,135 @@
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    display: block;
+}
+html,body{
+	font-family: "微软雅黑";
+ 	font-size: 16px;
+}
+ul{
+	-webkit-padding-start: 0;
+	padding-left: 0;
+}
+h1,h2,h3{
+	-webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+     margin-top: 0;
+ 	margin-bottom: 0;
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+.clearfix{
+	clear: both;
+}
+
+.w1000{
+	width: 1000px;
+}
+.container{
+	margin: 0 auto;
+}
+.left{float: left;}
+.right{float: right;}
+
+header,.header{
+	height: 57px;
+	background: #ccc;
+	display: inline-block;
+	width: 100%;
+}
+
+header .header-left{
+	float: left;
+}
+
+header .header-right{
+	float: right;
+}
+footer,.footer{ 
+	clear: both;
+	background: #222;
+	display: inline-block;
+	width: 100%;
+	height: 80px
+}
+.text-center{text-align: center;} 
+.face{height: 360px;}
+.face2{height: 210px;}
+.nav{ display: flex; margin-top: 15px; margin-bottom: 20px; line-height: 2;}
+.nav::after{ clear: both;}
+.nav ul>li{ float: left; width: 99px; text-align: center;}
+.nav a{text-decoration: none; color: #666;}
+.nav a:hover,.nav a.hover{color: #e66100; text-decoration: underline;}
+
+.mod{margin-top: 10px;}
+.mod .mod-title{height: 26px; padding: 10px 0; border-top: 2px solid #999; border-bottom: 1px solid #dee2e6;line-height: 28px; font-size: 100%; margin: 0;
+    vertical-align: baseline;}
+.mod .mod-list{    display: -webkit-box;  display: -webkit-box;  display: -ms-flexbox; display: -webkit-flexbox; display:  flex;   
+	margin-top: 10px;    margin-bottom: 40px;}
+.mod .mod-name{font-size: 20px; font-weight: 700; line-height: 26px; color: #254282;}
+.mod-news div{flex:1; }
+.mod-news .news-list li{margin-bottom: 10px;}
+.mod-news .news-list li a{ font-size: 18px; text-decoration: none; color: #222;}
+.mod-news .news-list li a:hover{    font-size: 18px; text-decoration: underline;color: #e66100;}
+
+.mod-famous  div{flex:1; }
+.mod-famous .famous-list {margin-top:10px; }
+.mod-famous .famous-list .captain{ margin-bottom: 15px;  font-size: 16px; font-weight: bold; font-family: "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53", serif;}
+.mod-famous .famous-list .captain span{    border-left: 3px solid #b2110e;     padding-left: 10px;}
+.mod-famous .famous-list li{margin-bottom: 12px; }
+.mod-famous .famous-list li a{  text-decoration: none; color: #222;}
+.mod-famous .famous-list li a:hover{  text-decoration: underline; color: #e66100;}
+
+
+.mod-nostalgia div{flex:1; }
+.mod-nostalgia .nostalgia-list {margin-top:10px; }
+.mod-nostalgia .nostalgia-list .captain{ margin-bottom: 15px;  font-size: 16px; font-weight: bold; font-family: "\5FAE\8F6F\96C5\9ED1", "\5B8B\4F53", serif;}
+.mod-nostalgia .nostalgia-list .captain span{    border-left: 3px solid #b2110e;     padding-left: 10px;}
+.mod-nostalgia .nostalgia-list li{margin-bottom: 12px; }
+.mod-nostalgia .nostalgia-list li a{  text-decoration: none; color: #222;}
+.mod-nostalgia .nostalgia-list li a:hover{  text-decoration: underline; color: #e66100;}
+
+
+.mod-tspoetry div{flex:1; }
+.mod-tspoetry .tspoetry-list li{margin-bottom: 10px; clear: both; height: 25px;}
+.mod-tspoetry .tspoetry-list li a{ font-size: 14px; text-decoration: none; color: #222;}
+.mod-tspoetry .tspoetry-list li a:hover{    font-size: 14px; text-decoration: underline;color: #e66100;}
+
+.mod-tswriter .tswriter-list li{
+	float: left; color:#fff;width: 80px; background: #818785;text-align: center;margin-left: 2px;margin-bottom: 1px; height: 30px; line-height: 30px;
+}
+.introduce{display: block;height: 300px; border-bottom: 1px solid #666;margin-top: 20px;}
+.introduce:after{clear: both;content: ""}
+.introduce img{height: 100%; float: left; margin-right: 30px;}
+.introduce p{ font-size: 18px;line-height: 1.5; font-family: "华文楷体";}
+.introduce p img{ text-align: center;}
+.article {padding-left: 10px;padding-right: 10px; font-size: 16px;}
+.article .article-header{text-align:center;margin-top: 20px;margin-bottom: 20px;}
+.article .article-header .article-title,.article h3.article-title,{ font-size: 30px;}
+.article .article-header .article-title2{    margin-top: 20px;    font-size: 18px;    font-family: "楷体";} 
+.article .article-header .article-arthur{}
+.article .article-dialog p{line-height:2;}
+.article .article-dialog p:nth-child(odd){font-family: "华文楷体";}
+.article .article-dialog p:nth-child(even){} 
+.article .article-dialog .imgdiv {width: 100%;text-align: center;}
+.article .article-dialog .imgdiv img{max-width: 80%;margin: 0 auto;}
+.article .article-blog .imgdiv {width: 100%;text-align: center;}
+.article .article-blog .imgdiv img{max-width: 80%;margin: 0 auto;}
+.article .article-blog {line-height:2;}
+
+.article-list li{     clear: both;  padding-bottom: 10px; padding-top: 10px; border-bottom: 1px dotted #ccc; height: 100px;}
+.article-list .desciption{padding-top: 10px;}
+.article-list .desciption a:hover{text-decoration: underline;color: #e66100; }
+.article-list .desciption .title{margin-bottom: 10px;font-weight: bold;}
+.article-list .desciption .title1{margin-bottom: 10px;}
+.article-list .desciption .arthor{margin-bottom: 10px;}
+
+@media screen and (max-width: 980px) {
+	.w1000{	width: 100%;}
+}
